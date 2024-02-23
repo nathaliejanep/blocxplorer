@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(122, 115, 115);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-inputs {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.container-inputs > * {
+  height: 2rem;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: rgb(188, 175, 156);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ccc;
+  column-count: 1;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li > * {
+  flex: 0 0 50%;
+  margin-bottom: 5px;
+}
+
+span {
+  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
